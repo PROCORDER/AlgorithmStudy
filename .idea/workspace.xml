@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35eef278-30ba-4e03-824c-392ef3bb6e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/array_partition/array_partition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductofArrayExceptionSelf/Paroduct_of_Array_Exception_Self.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,7 @@
   "keyToString": {
     "Python.1.executor": "Debug",
     "Python.3Sum.executor": "Run",
+    "Python.Paroduct_of_Array_Exception_Self.executor": "Debug",
     "Python.main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -141,6 +142,11 @@
           <line>7</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProductofArrayExceptionSelf/Paroduct_of_Array_Exception_Self.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -152,9 +158,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="nums[l]" />
-        <watch expression="nums[r]" />
-        <watch expression="nums[m]" />
+        <watch expression="rightproduct" />
+        <watch expression="leftproduct" />
       </configuration>
     </watches-manager>
   </component>
