@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35eef278-30ba-4e03-824c-392ef3bb6e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Add Two Numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Swap Nodes in Pairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,7 @@
     "Python.Add Two Numbers.executor": "Debug",
     "Python.BestBuy.executor": "Debug",
     "Python.Paroduct_of_Array_Exception_Self.executor": "Debug",
+    "Python.Swap Nodes in Pairs.executor": "Debug",
     "Python.main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -164,6 +165,11 @@
           <line>22</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Swap Nodes in Pairs.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -173,11 +179,5 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="rightproduct" />
-        <watch expression="leftproduct" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
