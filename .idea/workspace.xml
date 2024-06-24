@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35eef278-30ba-4e03-824c-392ef3bb6e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Odd Even Linked List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reverse Linked List 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reverse Linked List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Reverse Linked List.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
     "Python.BestBuy.executor": "Debug",
     "Python.Odd Even Linked List.executor": "Debug",
     "Python.Paroduct_of_Array_Exception_Self.executor": "Debug",
+    "Python.Reverse Linked List 2.executor": "Debug",
     "Python.Swap Nodes in Pairs.executor": "Debug",
     "Python.main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -173,8 +175,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Odd Even Linked List.py</url>
-          <line>32</line>
+          <line>34</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Reverse Linked List 2.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Reverse Linked List 2.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -185,5 +197,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="prev.next" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
