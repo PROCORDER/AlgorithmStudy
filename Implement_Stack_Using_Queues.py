@@ -1,43 +1,36 @@
-import collections
-class MyStack(object):
+class MyQueue(object):
 
     def __init__(self):
-        self.q=collections.deque()
-        
+        self.s1=[]
+        self.s2=[]
 
     def push(self, x):
         """
         :type x: int
         :rtype: None
         """
-        self.q.append(x)
-        for i in range(len(self.q)-1):
-            self.q.append(self.q.popleft())
+        self.s1.append(x)
 
 
-        
 
     def pop(self):
-        """
-        :rtype: int
-        """
-        return self.q.popleft()
-        
+        self.peek()
+        return self.s2.pop()
 
-    def top(self):
+    def peek(self):
         """
         :rtype: int
         """
-        return self.q[0]
-        
+        if not self.s2:
+            while self.s1:
+                self.s2.append(self.s1.pop())
+        return self.s2[-1]
 
     def empty(self):
         """
         :rtype: bool
         """
-        return len(self.q)==0
-        
-
+        return self.s1==[] and self.s2==[]
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
