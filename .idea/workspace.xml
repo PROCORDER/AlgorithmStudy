@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35eef278-30ba-4e03-824c-392ef3bb6e2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Design Circular Queue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Implement_Stack_Using_Queues.py" beforeDir="false" afterPath="$PROJECT_DIR$/Implement_Stack_Using_Queues.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "Python.3Sum.executor": "Run",
     "Python.Add Two Numbers.executor": "Debug",
     "Python.BestBuy.executor": "Debug",
+    "Python.Design Circular Queue.executor": "Debug",
     "Python.Odd Even Linked List.executor": "Debug",
     "Python.Paroduct_of_Array_Exception_Self.executor": "Debug",
     "Python.Reverse Linked List 2.executor": "Debug",
@@ -60,7 +61,7 @@
       <recent name="D:\study\algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="ENV_FILES" value="" />
@@ -197,6 +198,11 @@
           <line>8</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Design Circular Queue.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -206,11 +212,5 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="prev.next" />
-        <watch expression="str(ord(i))" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
