@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35eef278-30ba-4e03-824c-392ef3bb6e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Most Common Word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reorder Log Files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Group Anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Longest Palidreomw Substring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +39,14 @@
     "Python.Add Two Numbers.executor": "Debug",
     "Python.BestBuy.executor": "Debug",
     "Python.Design Circular Queue.executor": "Debug",
+    "Python.Longest Palidreomw Substring.executor": "Debug",
     "Python.Most Common Word.executor": "Run",
     "Python.Odd Even Linked List.executor": "Debug",
     "Python.Paroduct_of_Array_Exception_Self.executor": "Debug",
     "Python.Reorder Log Files.executor": "Run",
     "Python.Reverse Linked List 2.executor": "Debug",
     "Python.Swap Nodes in Pairs.executor": "Debug",
+    "Python.Two Sum.executor": "Debug",
     "Python.main.executor": "Run",
     "Python.valid_palindrome.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -208,6 +210,21 @@
           <url>file://$PROJECT_DIR$/Design Circular Queue.py</url>
           <line>107</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Longest Palidreomw Substring.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Two Sum.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Two Sum.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
