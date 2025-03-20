@@ -30,4 +30,4 @@ class Solution(object):
 
 Solution=Solution()
 a=Solution.twoSum([3,2,3],6)
-pritn(a)
+print(a)
