@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35eef278-30ba-4e03-824c-392ef3bb6e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product of Arrauy Except Self.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trapping Rain Warter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trapping Rain Warter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Two Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Two Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
