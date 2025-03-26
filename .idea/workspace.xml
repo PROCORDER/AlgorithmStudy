@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35eef278-30ba-4e03-824c-392ef3bb6e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Product of Arrauy Except Self.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Best Time to Buy and Sell Stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Palindrome Linked List.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,7 @@
     &quot;Python.1.executor&quot;: &quot;Debug&quot;,
     &quot;Python.3Sum.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Add Two Numbers.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Best Time to Buy and Sell Stock.executor&quot;: &quot;Run&quot;,
     &quot;Python.BestBuy.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Design Circular Queue.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Longest Palidreomw Substring.executor&quot;: &quot;Debug&quot;,
@@ -46,7 +48,7 @@
     &quot;Python.Reverse Linked List 2.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Swap Nodes in Pairs.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Two Sum.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.valid_palindrome.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -235,6 +237,11 @@
           <line>8</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Best Time to Buy and Sell Stock.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -244,5 +251,11 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="max-min" />
+        <watch expression="differ" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
