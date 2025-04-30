@@ -8,30 +8,27 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        node,result=head,None
-        cur =ListNode(None)
-        if head is None:
+        if head is None or head.next is None:
             return head
-        elif  head.next is None:
-            return head
-        else:
-            cur,cur.next,next1 = node.next,node,node.next.next
-            result=cur
-            cur=cur.next
-            node=next1
 
-        while node is not None:
-            if node.next is not None:
-                cur.next,cur.next.next,next1=node.next,node,node.next.next
-                cur=cur.next.next
-                node=next1
-            elif node is not None:
-                cur.next,next=node,node.next
-                node=next
-                cur=cur.next
-        cur.next=None
-        return result
+        solution = head.next  # 최종 반환할 새로운 head
+
+        def swapNumbers(first):
+            if first is None:
+                return None  # 더 이상 스왑할 쌍 없음
+            elif first.next is None:
+                return first
+
+            node = first
+            node, node.next, next = node.next, node, node.next.next
+            node.next.next = swapNumbers(next)  # 핵심 수정 부분
+
+            return node  # 현재 스왑된 노드 반환
+
+        return swapNumbers(head)
+
+
 a=ListNode(1,None)
-a.next=ListNode(2,ListNode(3))
+a.next=ListNode(2,ListNode(3,ListNode(4)))
 Solution=Solution()
 Solution.swapPairs(a)

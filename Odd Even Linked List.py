@@ -12,26 +12,26 @@ class Solution(object):
         if not head or not head.next:
             return head
         odd, Even = head, head.next
-        Evenhead=Even
+        head=head.next.next
+        Even_head=Even
         result=odd
         while head:
-            if Even.next and Even.next.next:
-                odd.next, Even.next, head = Even.next, Even.next.next, Even.next.next.next
-                odd,Even=odd.next,Even.next
-            elif Even.next is None:
+            odd.next=head
+            odd=odd.next
+            if head.next:
+                Even.next=head.next
+                Even=Even.next
+            else:
+                Even.next=None
                 break
-            elif Even.next.next is None:
-                odd.next=Even.next
-                odd= odd.next
-                break
+            head=head.next.next
 
-        Even.next=None
-        odd.next=Evenhead
+        odd.next=Even_head
         return result
 
 Solution = Solution()
-##a=ListNode(1,ListNode(2,ListNode(3,ListNode(4,ListNode(5)))))
-a=ListNode(1,ListNode(1))
+a=ListNode(1,ListNode(2,ListNode(3,ListNode(4,ListNode(5)))))
+#a=ListNode(1,ListNode(1))
 Solution.oddEvenList(a)
 
 
