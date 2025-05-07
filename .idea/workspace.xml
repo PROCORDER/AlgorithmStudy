@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35eef278-30ba-4e03-824c-392ef3bb6e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Daily  Temperatures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remove Duplicate Letters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merge k Sorted Lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,7 @@
     "Python.Daily  Temperatures.executor": "Debug",
     "Python.Design Circular Queue.executor": "Debug",
     "Python.Longest Palidreomw Substring.executor": "Debug",
+    "Python.Merge k Sorted Lists.executor": "Debug",
     "Python.Most Common Word.executor": "Run",
     "Python.Odd Even Linked List.executor": "Debug",
     "Python.Paroduct_of_Array_Exception_Self.executor": "Debug",
@@ -253,6 +253,11 @@
           <url>file://$PROJECT_DIR$/Daily  Temperatures.py</url>
           <line>8</line>
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Merge k Sorted Lists.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
